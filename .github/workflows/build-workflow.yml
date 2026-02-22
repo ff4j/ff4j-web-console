@@ -29,8 +29,8 @@ jobs:
       - name: Run lint
         run: yarn lint || echo "No lint script found"
 
-      - name: Run tests (headless)
-        run: yarn test --watch=false --browsers=ChromeHeadless
+      - name: Run tests
+        run: yarn test --watch=false
 
-      - name: Build Angular app
+      - name: Build app
         run: yarn build --configuration production
