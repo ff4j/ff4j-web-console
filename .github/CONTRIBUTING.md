@@ -8,7 +8,7 @@ We welcome any type of contributions, not just code. You can help with:
 - **QA**: Filing bug reports, the more details you can give the better (e.g. screenshots with the console open)
 - **Marketing**: Writing blog posts, how-to's, printing stickers, etc.
 - **Community**: Presenting the project at meetups, organizing a dedicated meetup group for the local community, etc.
-- **Code**: Taking a look at the list of [open issues](issues). Even if you can't write code you can comment on them. Showing that you care about a given issue matters, and it helps us prioritize them.
+- **Code**: Taking a look at the list of [open issues](/issues). Even if you can't write code you can comment on them. Showing that you care about a given issue matters, and it helps us prioritize them.
 - **Money**: We welcome financial contributions in full transparency on our [open collective](https://opencollective.com/ff4j) account.
 
 ## Your First Contribution
@@ -31,7 +31,7 @@ Anyone can file an expense. If the expense makes sense for the development of th
 
 ## Questions or Problems
 
-If you have any questions or problems, create an [issue](issue). (__Protip__: Before crreating an issue, do a quick search to see if someone aleady created an issue covering your question or problem!)
+If you have any questions or problems, create an [issue](/issue). (__Protip__: Before creating an issue, do a quick search to see if someone already created an issue covering your question or problem!)
 You can also reach us at hello@ff4j.opencollective.com.
 
 ## Credits
