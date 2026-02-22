@@ -27,7 +27,12 @@ jobs:
         run: yarn install --immutable
 
       - name: Run lint
-        run: yarn lint || echo "No lint script found"
+        run: |
+          if yarn run -T lint --help > /dev/null 2>&1; then
+            yarn lint
+          else
+            echo "No lint script found"
+          fi
 
       - name: Run tests
         run: yarn test --watch=false
