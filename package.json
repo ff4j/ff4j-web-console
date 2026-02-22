@@ -9,8 +9,8 @@
     "test": "ng test",
     "lint": "run-p lint:ng lint:styles lint:html",
     "lint:ng": "ng lint",
-    "lint:styles": "stylelint --config .lint/.stylelintrc.json src/app/**/*.scss",
-    "lint:html": "htmlhint --config .lint/.htmlhintrc src/app/**/*.html"
+    "lint:styles": "stylelint --config .lint/.stylelintrc.json src/**/*.scss",
+    "lint:html": "htmlhint --config .lint/.htmlhintrc src/**/*.html"
   },
   "prettier": {
     "printWidth": 100,
