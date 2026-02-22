@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "lint:styles": "stylelint --config .lint/.stylelintrc.json src/app/**/*.scss"
+    "lint:styles": "stylelint --config .lint/.stylelintrc.json src/app/**/*.scss",
+    "lint:html": "htmlhint --config .lint/.htmlhintrc src/app/**/*.html"
   },
   "prettier": {
     "printWidth": 100,
@@ -42,6 +43,7 @@
     "@eslint/js": "^9.39.2",
     "angular-eslint": "21.2.0",
     "eslint": "^9.39.2",
+    "htmlhint": "^1.9.1",
     "jsdom": "^28.1.0",
     "stylelint": "^17.3.0",
     "stylelint-config-sass-guidelines": "^13.0.0",
