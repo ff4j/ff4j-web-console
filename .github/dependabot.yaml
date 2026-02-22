@@ -13,7 +13,7 @@ updates:
     commit-message:
       prefix: "build: "
   - package-ecosystem: github-actions
-    directory: "/.github/"
+    directory: "/.github/workflows"
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
