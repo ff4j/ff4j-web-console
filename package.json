@@ -12,7 +12,8 @@
     "lint:styles": "stylelint --config .lint/.stylelintrc.json src/**/*.scss",
     "lint:html": "htmlhint --config .lint/.htmlhintrc src/**/*.html",
     "format:prettier": "lint-staged",
-    "format:all": "run-s format:prettier lint"
+    "format:all": "run-s format:prettier lint",
+    "prepare": "husky"
   },
   "prettier": {
     "printWidth": 100,
@@ -49,6 +50,7 @@
     "angular-eslint": "21.2.0",
     "eslint": "^9.39.2",
     "htmlhint": "^1.9.1",
+    "husky": "^9.1.7",
     "jsdom": "^28.1.0",
     "lint-staged": "^16.2.7",
     "npm-run-all": "^4.1.5",
