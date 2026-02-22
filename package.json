@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint:ng": "ng lint",
     "lint:styles": "stylelint --config .lint/.stylelintrc.json src/app/**/*.scss",
     "lint:html": "htmlhint --config .lint/.htmlhintrc src/app/**/*.html"
   },
