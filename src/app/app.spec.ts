@@ -2,17 +2,19 @@ import { TestBed } from '@angular/core/testing';
 import { App } from './app';
 import { provideTranslateService } from '@ngx-translate/core';
 import { provideHttpClient } from '@angular/common/http';
+import {LoggerTestingModule} from "ngx-logger/testing";
 
 describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [App],
+      imports: [App, LoggerTestingModule],
       providers: [
         provideHttpClient(),
         provideTranslateService({
           defaultLanguage: 'en',
         }),
       ],
+
     }).compileComponents();
   });
 
