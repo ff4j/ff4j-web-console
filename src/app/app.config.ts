@@ -17,7 +17,7 @@ export const appConfig: ApplicationConfig = {
         suffix: '.json',
       }),
       fallbackLang: 'en',
-      lang: 'en',
+      lang: import.meta.env.NG_APP_DEFAULT_LANGUAGE || 'en',
     }),
     importProvidersFrom(LoggerModule.forRoot({ level: NgxLoggerLevel.INFO })),
   ],

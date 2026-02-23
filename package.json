@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "run-p mock:server \"ng serve\"",
+    "start": "cross-env NODE_ENV=local run-p mock:server \"ng serve\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -51,7 +51,9 @@
     "@commitlint/cli": "^20.4.2",
     "@commitlint/config-conventional": "^20.4.2",
     "@eslint/js": "^10.0.1",
+    "@ngx-env/builder": "21.0.1",
     "angular-eslint": "21.2.0",
+    "cross-env": "^10.1.0",
     "eslint": "^9.39.2",
     "htmlhint": "^1.9.1",
     "husky": "^9.1.7",
