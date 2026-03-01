@@ -4755,10 +4755,10 @@ json-schema-typed@^8.0.2:
   resolved "https://registry.yarnpkg.com/json-schema-typed/-/json-schema-typed-8.0.2.tgz#e98ee7b1899ff4a184534d1f167c288c66bbeff4"
   integrity sha512-fQhoXdcvc3V28x7C7BMs4P5+kNlgUURe2jmUT1T//oBRMDrqy1QPelJimwZGo7Hg9VPV3EQV5Bnq4hbFy2vetA==
 
-json-server@^1.0.0-beta.9:
-  version "1.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/json-server/-/json-server-1.0.0-beta.9.tgz#f48e232e08dbb18bfb83114496dcebf8005776de"
-  integrity sha512-TCboGyNyne4reRrrLZ5tRSWd9SW5rIceHPAxL47S7PUSg/3cZm8nsYLiFNojJ8Ls8YWPmn0l8PLGpJASFLr01g==
+json-server@^1.0.0-beta.12:
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/json-server/-/json-server-1.0.0-beta.12.tgz#67f33ba6bd3937d51b09b7614bb8e9f90ce46173"
+  integrity sha512-c+Qu2vy509N2G5c+YlnvN0G1N/YgFiYNVOgayVi8IwdWmOpmasiEdjNT3C1kVXIUwdiPjrgm1ymWT1bF/N0fYg==
   dependencies:
     "@tinyhttp/app" "^3.0.1"
     "@tinyhttp/cors" "^2.0.1"
