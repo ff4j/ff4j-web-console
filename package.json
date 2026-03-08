@@ -55,7 +55,7 @@
     "angular-eslint": "21.2.0",
     "cross-env": "^10.1.0",
     "eslint": "^9.39.2",
-    "htmlhint": "^1.9.1",
+    "htmlhint": "^1.9.2",
     "husky": "^9.1.7",
     "jsdom": "^28.1.0",
     "json-server": "^1.0.0-beta.9",
