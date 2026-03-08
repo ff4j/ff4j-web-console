@@ -49,7 +49,7 @@
     "@angular/cli": "^21.1.4",
     "@angular/compiler-cli": "^21.1.0",
     "@commitlint/cli": "^20.4.2",
-    "@commitlint/config-conventional": "^20.4.2",
+    "@commitlint/config-conventional": "^20.4.3",
     "@eslint/js": "^10.0.1",
     "@ngx-env/builder": "21.0.1",
     "angular-eslint": "21.2.0",
